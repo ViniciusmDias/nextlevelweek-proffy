@@ -13,24 +13,16 @@
 
 </div>
 
-# Next Level Week #02 - Proffy 
-
-
 ## Introdução sobre a NLW 
-
 O NLW é uma imersão online com duração de uma semana, onde o desenvolvedor cria uma aplicação do zero ao deploy.
 Nessa edição número #02, vamos criar um sistema pensando no ensino online que se chama Proffy.
 
-
 ## Introdução sobre a Aplicação
-
-**Objetivo:** O Proffy é uma plataforma para conectar professores e alunos de todo o mundo.
-**Slogan:** Você merece o melhor da educação, conecte-se com os melhores professores de cada disciplina.
-**Idealização:** Proffy é uma maneira fofa de dizer "ei professor" em escolas fundamentais no Brasil.
-
+- **Objetivo:** O Proffy é uma plataforma para conectar professores e alunos de todo o mundo.
+- **Slogan:** Você merece o melhor da educação, conecte-se com os melhores professores de cada disciplina.
+- **Idealização:** Proffy é uma maneira fofa de dizer "ei professor" em escolas fundamentais no Brasil.
 
 ## Aulas
-
 ### 03/08 – Aula 01 |  Acelerando a sua Evolução 
 Nessa primeira aula do NLW #2, você vai conhecer o método que vai acelerar a sua evolução em direção aos seus maiores objetivos como programador. Entraremos em detalhes, conhecendo cada pilar desse método e como você pode utiliza-lo para ir direto ao ponto, na direção certa.
 
@@ -46,26 +38,19 @@ O que você acha de evoluir em 2 meses o que muitos devs levam 2 anos? No quarto
 ### 07/08 – Aula 05 |  A Milha Extra 
 Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se destacar, andando aquela milha extra. Vamos dar algumas sugestões práticas de como você pode fazer isso e aumentar incrivelmente os seus resultados.
 
-
-## Código
-**show me the code**
-
+## Código - Show me the code
 - [Backend](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
 - [Frontend](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
 - [Mobile](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
 
-
 ## Conteúdos adicionais :books:
-
 1. [Apostila](https://storage.googleapis.com/golden-wind/nextlevelweek/Apostila-NLW2.pdf)
 2. [Configurando o ambiente](https://www.notion.so/Configurando-Ambiente-NLW-98a471ad3cb6448284b8ceed31c45767)
 3. [Layout](https://www.notion.so/Layout-Proffy-3d5f45f54ec54ef9b2103565b7cce4e1)
 4. [Comunidade no Discord](https://discord.com/invite/y3dpX5F)
 5. [Download dos WallPapers](https://prismic-io.s3.amazonaws.com/rocketseat/58e4118a-6e42-4679-b24a-1bf697415efb_NLW_wallpapers.zip)
 
-
 ## Direitos Autorais & Politica de privacidade & Termos de uso
-
 Todo o material aqui foi criado pela RocketSeat e colocado em prática por mim.
 
 - [Meu portfolio](https://viniciusdias.works)
@@ -73,5 +58,3 @@ Todo o material aqui foi criado pela RocketSeat e colocado em prática por mim.
 - [Direitos autorais da RocketSeat](https://rocketseat.com.br/direitos-autorais)
 - [Politica de privacidade da RocketSeat](https://rocketseat.com.br/politica-de-privacidade)
 - [Termos de uso da RocketSeat](https://rocketseat.com.br/termos-de-uso)
-
-
