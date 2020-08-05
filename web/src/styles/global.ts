@@ -42,7 +42,7 @@ export default createGlobalStyle`
     justify-content: center;
   }
   body, input, button, textarea {
-    font: 500 1.6rem Poppin;
+    font: 500 1.6rem Poppins;
   }
   .container {
     width: 90vw;
