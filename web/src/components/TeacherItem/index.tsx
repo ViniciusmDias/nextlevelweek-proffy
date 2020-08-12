@@ -2,31 +2,48 @@ import React from 'react'
 
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 import { Item, BodyHeader, About, Footer } from './styles'
+import api from '../../services/api'
 
-const TeacherItem: React.FC = () => {
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+  function createNewConnection() {
+    api.post('connections', {
+      user_id: teacher.id,
+    })
+  }
+
   return (
     <Item>
       <BodyHeader>
-        <img src="https://avatars0.githubusercontent.com/u/23238171?s=460&u=d0e086b20c201327cd83ccdaa0ead5c91203f6a0&v=4" alt="Vinicius Dias" />
+        <img src={teacher.avatar} alt={teacher.name} />
         <div>
-          <strong>Vinicius Dias</strong>
-          <span>Front-End</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </BodyHeader>
-      <About>
-        I'm Vinicius Dias, I'm a Frontend developer who is passionate about JavaScript technologies and its entire ecosystem.
-            <br /><br />
-            I’m currently working on JavaScript, React and Gatsby apps/websites
-          </About>
+      <About>{teacher.bio}</About>
       <Footer>
         <p>
           Preço/hora
-              <strong>R$ 42,00</strong>
+              <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a target="_blank" onClick={createNewConnection} href={`https://wa.me/${teacher.whatsapp}`}>
           <img src={whatsappIcon} alt="Whatsapp" />
-              Entrar em contato
-            </button>
+            Entrar em contato
+        </a>
       </Footer>
     </Item>
   )

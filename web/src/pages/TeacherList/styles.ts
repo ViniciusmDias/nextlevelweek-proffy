@@ -5,6 +5,10 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
   }
+
+  label {
+    color: var(--color-text-in-primary);
+  }
   @media(min-width: 700px) {
     &#page-teacher-list {
       max-width: 100vw;
@@ -14,53 +18,37 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   margin-top: 3.2rem;
+
+  button {
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+
+    &:hover {
+      background: var(--color-secundary-dark);
+    }
+  }
+
+
   @media(min-width: 700px) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 16px;
     position: absolute;
     bottom: -28px;
   }
 `;
-
-export const Input = styled.div`
-  position: relative;
-  label {
-    font-size: 1.4rem;
-
-    color: var(--color-text-in-primary);
-  }
-  input {
-    width: 100%;
-    height: 5.6rem;
-    margin-top: 0.8rem;
-    border-radius: 0.8rem;
-    background: var(--color-input-background);
-    border: 1px solid var(--color-line-in-white);
-    outline: 0;
-    padding: 0 1.6rem;
-    font: 1.6rem Archivo;
-  }
-  & + & {
-    margin-top: 1.4rem;
-  }
-  &:focus-within::after {
-    width: calc(100% - 3.2rem);
-    height: 2px;
-    content: '';
-    background: var(--color-primary-light);
-    position: absolute;
-    left: 1.6rem;
-    right: 1.6rem;
-    bottom: 0;
-  }
-  @media(min-width: 700px) {
-    & + & {
-      margin-top: 0rem;
-    }
-  }
-`;
-
 
 export const PageBody = styled.main`
   margin: 3.2rem auto;
