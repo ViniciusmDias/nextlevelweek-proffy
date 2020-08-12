@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import PageHeader from '../../components/PageHeader'
 import Input from '../../components/Input'
@@ -7,9 +7,23 @@ import Select from '../../components/Select'
 
 import warningIcon from '../../assets/images/icons/warning.svg'
 
-import { Container, Footer } from './styles'
+import { Container, ScheduleItem, Footer } from './styles'
+
+
 
 const TeacherForm: React.FC = () => {
+
+  const [scheduleItems, setScheduleItems] = useState([
+    { week_day: 0, from: '', to: '' }
+  ])
+
+  function addNewScheduleItem() {
+    setScheduleItems([
+      ...scheduleItems,
+      { week_day: 0, from: '', to: '' }
+    ])
+  }
+
   return (
     <Container id="page-teacher-form" className="container">
       <PageHeader
@@ -47,30 +61,35 @@ const TeacherForm: React.FC = () => {
         </fieldset>
         <fieldset>
           <legend>Horários disponíveis
-            <button type="button">
+            <button type="button" onClick={addNewScheduleItem}>
               + Novo horário
             </button>
           </legend>
-          <div className="schedule-item">
 
-            <Select
-              name="subject"
-              label="Matéria"
-              options={[
-                { value: 'Artes', label: 'Artes' },
-                { value: 'Biologia', label: 'Biologia' },
-                { value: 'Ciências', label: 'Ciências' },
-                { value: 'Educação física', label: 'Educação física' },
-                { value: 'Geografia', label: 'Geografia' },
-                { value: 'História', label: 'História' },
-                { value: 'Matemática', label: 'Matemática' },
-                { value: 'Português', label: 'Português' },
-                { value: 'Química', label: 'Química' },
-              ]} />
-            <Input name="from" label="Das" type="time" />
-            <Input name="cost" label="Até" type="time" />
 
-          </div>
+          {scheduleItems.map(scheduleItem => {
+            return (
+              <ScheduleItem key={scheduleItem.week_day}>
+                <Select
+                  name="subject"
+                  label="Matéria"
+                  options={[
+                    { value: 'Artes', label: 'Artes' },
+                    { value: 'Biologia', label: 'Biologia' },
+                    { value: 'Ciências', label: 'Ciências' },
+                    { value: 'Educação física', label: 'Educação física' },
+                    { value: 'Geografia', label: 'Geografia' },
+                    { value: 'História', label: 'História' },
+                    { value: 'Matemática', label: 'Matemática' },
+                    { value: 'Português', label: 'Português' },
+                    { value: 'Química', label: 'Química' },
+                  ]} />
+                <Input name="from" label="Das" type="time" />
+                <Input name="cost" label="Até" type="time" />
+
+              </ScheduleItem>
+            )
+          })}
 
 
         </fieldset>
