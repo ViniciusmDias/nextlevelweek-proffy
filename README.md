@@ -38,7 +38,11 @@ O que você acha de evoluir em 2 meses o que muitos devs levam 2 anos? No quarto
 ### 07/08 – Aula 05 |  A Milha Extra 
 Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se destacar, andando aquela milha extra. Vamos dar algumas sugestões práticas de como você pode fazer isso e aumentar incrivelmente os seus resultados.
 
+
+## Código
+**show me the code**
 ## Código - Show me the code
+
 - [Backend](https://github.com/ViniciusmDias/)
 - [Web](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/web)
 - [Mobile](https://github.com/ViniciusmDias/)
