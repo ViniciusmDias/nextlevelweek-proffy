@@ -50,8 +50,8 @@ Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se 
 ## Código
 **show me the code**
 
-- [Backend](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
-- [Frontend](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
+- [Server](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/server)
+- [Web](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/web)
 - [Mobile](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
 
 
