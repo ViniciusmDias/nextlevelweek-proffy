@@ -9,15 +9,21 @@ export const Container = styled.View`
 export const TopBar = styled.View`
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+`;
 
-`
 export const Title = styled.Text`
   font-family: Archivo_700Bold;
   color: #fff;
-  font-size: 24;
-  line-height: 32;
+  font-size: 24px;
+  line-height: 32px;
   max-width: 160px;
   margin-top: 40px;
   margin-bottom: 40px;
+`;
 
-`
+export const Header = styled.View`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
