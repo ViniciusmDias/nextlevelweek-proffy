@@ -52,7 +52,7 @@ Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se 
 
 - [Server](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/server)
 - [Web](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/web)
-- [Mobile](https://github.com/ViniciusmDias/nextlevelweek-2-omnistack)
+- [Mobile](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/mobile)
 
 
 ## Conteúdos adicionais :books:
@@ -65,6 +65,8 @@ Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se 
 
 
 ## Direitos Autorais & Politica de privacidade & Termos de uso
+
+Se curtiu o projeto, não hesite em deixar aquela estrela, isso ajuda a me manter motivado e continuar contribuindo!
 
 Todo o material aqui foi criado pela RocketSeat e colocado em prática por mim.
 
