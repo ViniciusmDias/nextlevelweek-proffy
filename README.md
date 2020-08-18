@@ -23,19 +23,21 @@ Nessa edição número #02, vamos criar um sistema pensando no ensino online que
 - **Idealização:** Proffy é uma maneira fofa de dizer "ei professor" em escolas fundamentais no Brasil.
 
 ## Aulas
-### 03/08 – Aula 01 |  Acelerando a sua Evolução 
+As aulas estão separadas por branches.
+
+### [03/08 – Aula 01 |  Acelerando a sua Evolução](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/acelerando-sua-evolucao)
 Nessa primeira aula do NLW #2, você vai conhecer o método que vai acelerar a sua evolução em direção aos seus maiores objetivos como programador. Entraremos em detalhes, conhecendo cada pilar desse método e como você pode utiliza-lo para ir direto ao ponto, na direção certa.
 
-### 04/08 – Aula 02 |  Olhando as oportunidades 
+### [04/08 – Aula 02 |  Olhando as oportunidades](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/olhando-as-oportunidades)
 No segundo dia do NLW #2, você vai descobrir como acessar as melhores oportunidades no mercado, que na maioria das vezes não são divulgadas.
 
-### 05/08 – Aula 03 |  A Escolha da Stack
+### [05/08 – Aula 03 |  A Escolha da Stack](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/escolha-da-stack)
 Qual a melhor tecnologia? É sobre isso que vamos falar no terceiro dia do NLW #2. Vamos apresentar os critérios de avaliação para decidir quais tecnologias fazem sentido para você, dado o seu momento atual, o seu contexto e os seus objetivos. Além disso, você entender por qual razão utilizamos a nossa stack e como ela pode multiplicar as oportunidades de uma forma enxuta sem perder o foco.
 
-### 06/08 – Aula 04 |  Até 2 Anos em 2 Meses
+### [06/08 – Aula 04 |  Até 2 Anos em 2 Meses](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/dois-anos-em-dois-meses)
 O que você acha de evoluir em 2 meses o que muitos devs levam 2 anos? No quarto dia do NLW #2, vamos entender o problema que desacelera a evolução de muitos devs e as principais dificuldades que atrapalham a evolução.  Você vai ver como evitar esses problemas e acelerar na direção certa. 
 
-### 07/08 – Aula 05 |  A Milha Extra 
+### [07/08 – Aula 05 |  A Milha Extra](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/a-milha-extra)
 Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se destacar, andando aquela milha extra. Vamos dar algumas sugestões práticas de como você pode fazer isso e aumentar incrivelmente os seus resultados.
 
 
