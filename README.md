@@ -43,7 +43,7 @@ Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se 
 **show me the code**
 ## Código - Show me the code
 
-- [Backend](https://github.com/ViniciusmDias/)
+- [Server](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/server)
 - [Web](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/web)
 - [Mobile](https://github.com/ViniciusmDias/nextlevelweek-proffy/tree/master/mobile)
 
